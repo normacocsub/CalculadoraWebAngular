@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: 'Multiplicacion', component: MultiplicacionComponent },
   { path: 'Division', component: DivisionComponent }
 ];
-
+ 
 @NgModule({
   imports: [RouterModule.forRoot(routes),
     RouterModule.forRoot([{ path: '', component: HomeComponent }])],
